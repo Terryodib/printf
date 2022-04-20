@@ -1,4 +1,21 @@
-
+Skip to content
+dev-ted
+/
+printf
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+printf/holberton.h
+@dev-ted
+dev-ted updated man page and read me file , also refactored _printf code
+ 2 contributors
+93 lines (81 sloc)  2.7 KB
 #ifndef PRINT_F
 #define PRINT_F
 
@@ -91,5 +108,3 @@ int print_range(char *start, char *stop, char *except);
 int print_func(char *s, va_list list, param_func *func);
 int print_left_shift(char *str, param_func *func);
 int _strlen(char *s);
-#endif
-
